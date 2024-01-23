@@ -1,0 +1,25 @@
+{
+    "name": "toxicity-bot",
+    "description": "A Discord bot that assigns users roles based on their toxicity levels, also includes a toxicity leaderboard.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Zyrenth <work@zyrenth.dev>",
+    "license": "GPL-3.0-only",
+    "dependencies": {
+        "@tensorflow-models/toxicity": "^1.0.3",
+        "@types/node": "^20.11.5",
+        "@typescript-eslint/eslint-plugin": "^6.19.1",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.3.2",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "eslint-plugin-unused-imports": "^3.0.0",
+        "sqlite3": "^5.1.7"
+    }
+}
